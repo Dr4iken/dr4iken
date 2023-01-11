@@ -60,10 +60,10 @@
 <div align="left">
 <h2 align="center">𝗚𝗶𝘁𝗵𝘂𝗯 𝗜𝗻𝗳𝗼</h2> 
 <p ><img src="https://komarev.com/ghpvc/?username=dr4iken&style=for-the-badge&color=6ca2ff" alt="dr4iken" /> </p>  
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=dr4iken&show_icons=true&locale=en&layout=compact" alt="dr4iken" /></p><br>
+<!-- <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=dr4iken&show_icons=true&locale=en&layout=compact" alt="dr4iken" /></p><br>
 <p > <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dr4iken" alt="dr4iken" /></a> </p>
 <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=dr4iken&show_icons=true&locale=en" alt="dr4iken" /></p>
-<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=dr4iken&" alt="dr4iken" /></p>
+<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=dr4iken&" alt="dr4iken" /></p> -->
 
 </div>
 </body>
