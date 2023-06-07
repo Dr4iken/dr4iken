@@ -25,11 +25,11 @@ interface SocialMedia {
 
 interface Profile {
   readonly name: string;
+  readonly profession: string;
   readonly age: number;
   readonly loves: readonly string[];
   readonly gender: readonly Gender[];
   readonly hobbies: readonly string[];
-  readonly discord: string;
   readonly socialMedia: readonly SocialMedia[];
 }
 
@@ -46,21 +46,21 @@ const socialMedia: SocialMedia[] = [
 
 const profile: Profile = {
   name: 'Sebastian Venegas 💮',
+  profession: 'Full Stack Developer'
   age: 17,
   loves: ['Programming', 'Physics', 'Math'],
   gender: ['Male', 'Prefer Not to Say'],
   hobbies: ['Read', 'Play Videogames', 'Physics'],
-  discord: 'Draiken#5383',
   socialMedia: socialMedia,
 };
 
 const displayProfile = (profile: Profile): void => {
   console.log('Name:', profile.name);
+  console.log('Profession:', profile.profession);
   console.log('Age:', profile.age);
   console.log('Loves:', profile.loves.join(', '));
   console.log('Gender:', profile.gender.join(', '));
   console.log('Hobbies:', profile.hobbies.join(', '));
-  console.log('Discord:', profile.discord);
   console.log('Social Media:');
   profile.socialMedia.forEach((social) => {
     console.log(`- ${social.name}: ${social.url}`);
