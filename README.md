@@ -36,12 +36,8 @@ interface Profile {
 const socialMedia: SocialMedia[] = [
   {
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
-  },
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com/yourusername',
-  },
+    url: 'https://github.com/dr4iken',
+  }
 ];
 
 const profile: Profile = {
