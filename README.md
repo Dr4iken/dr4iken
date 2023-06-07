@@ -39,7 +39,8 @@ const socialMedia: SocialMedia[] = [
     url: 'https://github.com/dr4iken',
   }
 ];
-
+```
+```typescript
 const profile: Profile = {
   name: 'Sebastian Venegas 💮',
   profession: 'Full Stack Developer'
@@ -49,7 +50,8 @@ const profile: Profile = {
   hobbies: ['Read', 'Play Videogames', 'Physics'],
   socialMedia: socialMedia,
 };
-
+```
+```typescript
 const displayProfile = (profile: Profile): void => {
   console.log('Name:', profile.name);
   console.log('Profession:', profile.profession);
